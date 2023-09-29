@@ -1,9 +1,11 @@
 <script setup>
 
 </script>
-
 <template>
-  <h1>Hello World!</h1>
+  <br />
+  <br /><br /><br />
+    <h1>Welcome to ofstad.co</h1>
+    Currently under development
 </template>
 
 <style scoped>
