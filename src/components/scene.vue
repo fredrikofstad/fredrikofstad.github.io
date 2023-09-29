@@ -4,7 +4,7 @@
       <Scene ref="scene" background="#181818">
       <AmbientLight></AmbientLight>
 
-        <GltfModel ref="kappa" src="src/assets/models/Kappa.glb" :rotation="{ y: -0.5 }"/>
+        <GltfModel ref="kappa" src="public/models/Kappa.glb" :rotation="{ y: -0.5 }"/>
         <PointLight
             color="white"
             :position="{ x: 5, y: 10, z: 10 }"
