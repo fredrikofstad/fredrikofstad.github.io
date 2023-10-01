@@ -1,9 +1,9 @@
 <script setup>
-
+import datavis from '../components/data.vue'
 </script>
+
 <template>
-    <h1>Welcome to ofstad.co</h1>
-    Currently under development
+    <datavis />
 </template>
 
 <style scoped>

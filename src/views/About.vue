@@ -1,9 +1,12 @@
 <script setup>
 
 </script>
+
 <template>
-    <h1>Welcome to ofstad.co</h1>
-    Currently under development
+  <div class="home">
+    <h1>About</h1>
+  </div>
+
 </template>
 
 <style scoped>

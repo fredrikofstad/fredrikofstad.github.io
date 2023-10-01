@@ -26,5 +26,4 @@ coverage
 *.sln
 *.sw?
 /.vscode/
-
-/dist/
+dist/

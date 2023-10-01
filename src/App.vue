@@ -1,17 +1,14 @@
 <script setup>
-import welcome from './components/welcome.vue'
-import scene from './components/scene.vue'
+import Navigation from "@/components/navigation.vue";
 </script>
+
 
 <template>
 
-  <main>
-    <welcome />
-  </main>
-  <div style="width: 300px; height: 550px">
-  <scene />
+  <navigation></navigation>
+
+  <div class="container">
+    <router-view></router-view>
   </div>
-
-
 </template>
 

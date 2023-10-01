@@ -1,9 +1,12 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
+import Tres from '@tresjs/core'
 import App from './App.vue'
-import { TroisJSVuePlugin } from 'troisjs';
+import router from "@/router";
 
-const app = createApp(App)
-app.mount('#app')
-app.use(TroisJSVuePlugin)
+
+createApp(App)
+    .use(Tres)
+    .use(router)
+    .mount('#app')
