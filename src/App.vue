@@ -1,11 +1,11 @@
 <script setup>
-import Navigation from "@/components/navigation.vue";
+import TheNavigation from "@/components/TheNavigation.vue";
 </script>
 
 
 <template>
 
-  <navigation></navigation>
+  <TheNavigation />
 
   <div class="container">
     <router-view></router-view>

@@ -1,9 +1,9 @@
 import './assets/main.css'
 
-import { createApp } from 'vue'
-import Tres from '@tresjs/core'
-import App from './App.vue'
+import { createApp } from 'vue';
+import Tres from '@tresjs/core';
 import router from "@/router";
+import App from './App.vue';
 
 
 createApp(App)

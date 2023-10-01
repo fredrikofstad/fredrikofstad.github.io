@@ -9,7 +9,7 @@ import scene from '../components/scene.vue'
   <main>
     <welcome />
   </main>
-  <div style="width: 200px; height: 300px">
+  <div class="scene" style="width: 300px; height: 400px">
     <scene />
   </div>
 </template>

@@ -1,9 +1,9 @@
-<script setup>
+<script>
 
 </script>
 
 <template>
-  <h2>Vue.js and D3 Line Chart</h2>
+  <h2>Data Visualization with d3.js</h2>
   <svg></svg>
 
 </template>
