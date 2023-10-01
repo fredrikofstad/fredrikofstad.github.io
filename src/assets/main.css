@@ -149,7 +149,7 @@ a {
 }
 .close {
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 10px;
   padding: 10px;
   font-size: 1.4rem;
